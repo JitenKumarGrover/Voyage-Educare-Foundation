@@ -1,0 +1,187 @@
+html {
+    min-height: 100%;
+    position: relative;
+  }
+  body, html {
+    height: 100%;
+  }
+  
+  
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #f0a500 !important;
+  }
+
+  
+/* main container */
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  background-image: url("../images/background.jpg"); 
+  width: 100%;
+  height: 650px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-text {
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4); 
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 450px;
+  left:18%;
+  width: 80%;
+  padding: 2px;
+  text-align: center;
+}
+
+ 
+.big-heading{
+  font-size: 48px;
+  text-align: right;
+  color: #c81912;
+  padding-top: 10px;
+}
+  
+  h1{
+    font-family: 'Oswald', sans-serif;
+    padding-top: 20px;
+  }
+  
+  .carousel-item {
+    height: auto;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  #carouselExampleInterval{
+    width: 100%;
+    margin: auto;
+    padding-bottom: 30px;
+  }
+
+  #carouselExampleIndicators{
+    width: 75%;
+    margin: auto;
+  }
+  
+  .work_heading{
+    text-align: center; 
+  } 
+  
+  .lead{
+    padding-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .work_des{
+    width: 80%;
+    margin: auto;
+    border: black;
+    border-width: 100px;
+    padding: 10px;
+  }
+  
+  .second_section{
+    background-color: #fff0f5;
+  }
+  
+  .middle_container{
+    width: 70%;
+    margin: auto;
+    height: 400px;
+    padding-top: 50px;
+    padding-left: 50px;
+    text-align: center;
+  }
+  
+  .company_desp{
+    padding-top: 7px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+  }
+
+  .contact_form{
+      width: 50%;
+      margin: auto;
+      text-align: center;
+  }
+
+  .address{
+    text-align: left;
+  }
+  .center_align{
+    text-align: center;
+    margin: auto;
+  }
+
+  /* Donate section */
+ .donate_img{
+    width: 100%;
+    height: 400px; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: full; 
+  }
+
+  .donate{
+      text-align: center;
+      padding-top: 30px;
+      
+  }
+
+  #donatepopup{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+
+  
+
+  /* footer */
+  .bottom_container{
+  position: static;
+	bottom:0;
+  width: 100%;
+  margin: auto;
+   padding-top: 150px;
+     text-align: center;
+ }
+
+ .social-icon{
+     font-size: 50px;
+     padding-left: 10px;
+ }
+
+ .copyright{
+	font-size: 16px;
+	padding-bottom: 0px;
+
+}
+
+
